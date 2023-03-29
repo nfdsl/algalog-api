@@ -12,6 +12,8 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Getter
 @Setter
 @Entity
@@ -34,6 +36,5 @@ public class Cliente {
     @Size(max = 20)
     @Column(name = "fone")
     private String telefone;
-
 
 }
